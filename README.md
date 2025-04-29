@@ -1,4 +1,4 @@
-### meuhtml-naousa-css
+# meuhtml-naousa-css
 Objetivo: criar uma janela contendo um texto com hover. Treino de hover, variáveis e cores. Desafio: estilizar uma página html sem usar css.
 
 ## Objetivo: criar uma janela contendo um texto com hover.
@@ -7,4 +7,4 @@ Objetivo: criar uma janela contendo um texto com hover. Treino de hover, variáv
 
 ## Treino de hover, variáveis e cores.
 
-# Tecnologia utilizada: HTML.
+### Tecnologia utilizada: HTML.
