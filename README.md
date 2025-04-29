@@ -6,4 +6,4 @@
 
 ## Treino de hover, variáveis e cores.
 
-### Tecnologia utilizada: HTML.
+## Tecnologia utilizada: HTML.
