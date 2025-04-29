@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML não usa CSS</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --cor-de-fundo-pagina: #547792;
+    --cor-de-fundo-paragrafo: #94B4C1;
+    --cor-da-fonte-paragrafo: #EFEEEA;
+    --cor-da-borda-paragrafo: #213448;
+    --cor-da-borda-ponto: #00ffff;
+    --cor-do-hover-paragrafo-completo: #FF9B17;
+    --cor-do-hover-paragrafo-palavra: #7AE2CF;
+    --cor-do-destaque: #077A7D;
+    --nome-da-fonte-principal: "Varela Round", sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo-pagina);
+    height: 100vh;
+}
+
+body {
+            background-color: var(--cor-de-fundo-pagina);
+            height: 100vh;
+        }
+
+        .paragrafo__surpresa {
+            color: var(--cor-da-fonte-paragrafo);
+            font-size: 3em;
+            font-family: var(--nome-da-fonte-principal);
+            position: relative;
+            top: 300px;
+            left: 415px;
+            width: fit-content; /* margin-right: 420px; */
+        }
+
+        .paragrafo__surpresa:hover {
+            color: var(--cor-do-hover-paragrafo-completo);
+        }
+
+        .palido__ponto__azul {
+            border: 5px solid var(--cor-da-borda-ponto);
+            border-radius: 50%;
+            width: 10px;
+            position: relative;
+            top: 221px;
+            left: 415px;
+            width: fit-content; /* margin-right: 100px; */
+        }
+
+        .janela__minimalista__mac {
+            background-color: var(--cor-de-fundo-paragrafo);
+            border-top: 30px solid var(--cor-da-borda-paragrafo);
+            margin: 200px 400px;
+            height: 400px /* padding: 0 0 400px; */
+        }
+
+        .paragrafo__explicativo {
+            color: var(--cor-da-fonte-paragrafo);
+            font-size: 2em;
+            font-family: var(--nome-da-fonte-principal);
+            position: relative;
+            bottom: 500px;
+            left: 415px;
+            width: fit-content; /*margin-right: 420px;*/
+        }
+
+        span {
+            color: var(--cor-do-destaque);
+        }
+
+        span:hover {
+            color: var(--cor-do-hover-paragrafo-palavra);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <p class="paragrafo__surpresa">Quem passar por mim terá uma surpresa!</p>
+    
+    <div class="palido__ponto__azul"></div>
+    <div class="janela__minimalista__mac"></div>
+
+    <p class="paragrafo__explicativo">Nesse projeto não há <span>style.css</span>. Foi utilizada a tag <span>style</span> para estilizar a <br> página!</p>
+
+</body>
+</html>
